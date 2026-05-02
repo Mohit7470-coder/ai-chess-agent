@@ -1,49 +1,66 @@
-# ♜ Agent White vs Agent Black: Chess Game
+# ♟️ AI Chess Agent (Multi-Agent System)
 
-### 🎓 FREE Step-by-Step Tutorial 
-**👉 [Click here to follow our complete step-by-step tutorial](https://www.theunwindai.com/p/build-a-multi-agent-chess-game) and learn how to build this from scratch with detailed code walkthroughs, explanations, and best practices.**
+An advanced AI-powered chess game where two intelligent agents play against each other.  
+This project demonstrates how multi-agent systems can be used to simulate strategic gameplay with proper validation and game management.
 
-An advanced Chess game system where two AI agents play chess against each other using Autogen in a streamlit app. It is built with robust move validation and game state management.
+---
 
-## Features
+## 📌 Project Overview
 
-### Multi-Agent Architecture
-- Player White: OpenAI-powered strategic decision maker
-- Player Black: OpenAI-powered tactical opponent
-- Board Proxy: Validation agent for move legality and game state
+This application is built using a **multi-agent architecture** where two AI agents compete in a game of chess:
 
-### Safety & Validation
-- Robust move verification system
-- Illegal move prevention
-- Real-time board state monitoring
-- Secure game progression control
+- ⚪ **White Agent** → Focuses on strategic gameplay  
+- ⚫ **Black Agent** → Focuses on tactical responses  
+- 🧠 **Game System** → Validates moves and maintains board state  
 
-### Strategic Gameplay
-- AI-powered position evaluation
-- Deep tactical analysis
-- Dynamic strategy adaptation
-- Complete chess ruleset implementation
+The system ensures that all moves follow official chess rules and prevents illegal gameplay.
+
+---
+
+### 📌 File Description
+
+- **ai_chess_agent.py**
+  - Contains the main logic of the application
+  - Handles AI agents, game flow, and move execution
+  - Runs the Streamlit interface
+
+- **requirements.txt**
+  - Contains all required Python libraries
+  - Used to install dependencies using `pip install -r requirements.txt`
+
+- **README.md**
+  - Provides complete information about the project
+  - Helps users understand and run the project
+
+## 🚀 Features
+
+### 🤖 Multi-Agent Architecture
+- Two AI agents playing against each other
+- Independent decision-making for both sides
+- Simulates real-world AI vs AI gameplay
+
+### ♟️ Chess Logic Implementation
+- Complete chess ruleset
+- Board state tracking
+- Turn-based execution system
+
+### 📊 Intelligent Gameplay
+- AI-based move selection
+- Strategic and tactical decision making
+- Dynamic game progression
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **Streamlit** → for UI
+- **Autogen / AI agents**
+- **Chess logic libraries (if used)**
+
+## 📬 Contact
+
+👤 Mohit Patidar  
+🔗 GitHub: https://github.com/Mohit7470-coder  
+📧 Email: your-mohitpatidar3522@gmail.com
 
 
-### How to get Started?
-
-1. Clone the GitHub repository
-
-```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd ai_agent_tutorials/ai_chess_game
-```
-2. Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-3. Get your OpenAI API Key
-
-- Sign up for an [OpenAI account](https://platform.openai.com/) (or the LLM provider of your choice) and obtain your API key.
-
-4. Run the Streamlit App
-```bash
-streamlit run ai_chess_agent.py
-```
 
