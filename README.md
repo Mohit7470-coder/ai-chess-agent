@@ -60,7 +60,7 @@ The system ensures that all moves follow official chess rules and prevents illeg
 
 👤 Mohit Patidar  
 🔗 GitHub: https://github.com/Mohit7470-coder  
-📧 Email: your-mohitpatidar3522@gmail.com
+📧 Email: mohitpatidar3522@gmail.com
 
 
 
