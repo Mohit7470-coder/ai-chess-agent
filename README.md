@@ -1,3 +1,17 @@
+## ⚠️ Important Setup
+
+This project requires an API key.
+
+Set your OpenAI API key before running:
+
+Windows:
+set OPENAI_API_KEY=your_key
+
+Linux/Mac:
+export OPENAI_API_KEY=your_key
+
+
+
 # ♟️ AI Chess Agent (Multi-Agent System)
 
 An advanced AI-powered chess game where two intelligent agents play against each other.  
